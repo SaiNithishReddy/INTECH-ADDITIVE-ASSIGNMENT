@@ -1,0 +1,26 @@
+The dot product and cross product are mathematical operations performed on vectors in three-dimensional space. They are commonly used in graphics and computer science for various applications.
+
+1. **Dot Product:**
+   - **Definition:** The dot product (also known as the scalar product) of two vectors is the sum of the products of their corresponding components.
+   - **Formula:** If \( \mathbf{A} = \langle a_1, a_2, a_3 \rangle \) and \( \mathbf{B} = \langle b_1, b_2, b_3 \rangle \) are two vectors, then their dot product is given by \( \mathbf{A} \cdot \mathbf{B} = a_1 \cdot b_1 + a_2 \cdot b_2 + a_3 \cdot b_3 \).
+   - **Use Cases:**
+     - **Angle between Vectors:** The dot product is used to find the angle between two vectors. If \( \theta \) is the angle between vectors \( \mathbf{A} \) and \( \mathbf{B} \), then \( \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \cdot \|\mathbf{B}\|} \).
+     - **Projection:** It is used to find the projection of one vector onto another.
+
+   - **Sources:**
+     - [Khan Academy - Dot Product](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:vectors/x2f8bb11595b61c86:dot-cross-products/v/dot-product-introduction)
+     - [Wolfram MathWorld - Dot Product](http://mathworld.wolfram.com/DotProduct.html)
+
+2. **Cross Product:**
+   - **Definition:** The cross product (also known as the vector product) of two vectors results in a third vector that is perpendicular to the plane containing the original vectors.
+   - **Formula:** If \( \mathbf{A} = \langle a_1, a_2, a_3 \rangle \) and \( \mathbf{B} = \langle b_1, b_2, b_3 \rangle \), then their cross product is given by \( \mathbf{A} \times \mathbf{B} = \langle a_2 \cdot b_3 - a_3 \cdot b_2, a_3 \cdot b_1 - a_1 \cdot b_3, a_1 \cdot b_2 - a_2 \cdot b_1 \rangle \).
+   - **Use Cases:**
+     - **Normal Vector:** The cross product is used to find the normal vector to a plane defined by two vectors.
+     - **Torque and Angular Momentum:** In physics, the cross product is used to calculate torque and angular momentum.
+     - **Determining Orientation:** It is used to determine the orientation of three points in 3D space.
+
+   - **Sources:**
+     - [Khan Academy - Cross Product](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:vectors/x2f8bb11595b61c86:dot-cross-products/v/cross-product-introduction)
+     - [Wolfram MathWorld - Cross Product](http://mathworld.wolfram.com/CrossProduct.html)
+
+In a graphics environment, both dot and cross products play crucial roles. For example, the dot product can be used for lighting calculations, while the cross product is often employed in determining surface normals and creating realistic reflections in 3D scenes. Understanding these operations is fundamental to many aspects of computer graphics and simulation.
